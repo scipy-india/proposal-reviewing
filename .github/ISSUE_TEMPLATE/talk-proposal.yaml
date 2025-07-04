@@ -1,0 +1,101 @@
+name: 🎙️ Talk Proposal
+description: Submit a talk proposal for SciPy India Virtual Meet-ups. 
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share your learnings with the SciPy India Community! We would highly recommend you go through our [guidelines](https://github.com/SciPy-India/talks/blob/master/guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Please share the title of your talk
+      placeholder: For E.g, Optimising research pipelines with scientific machine learning
+    validations:
+      required: false
+  - type: textarea
+    id: Abstract
+    attributes:
+      label: Abstract
+      description: Brief description about your talk in 40-50 words.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Detailed description of what you will be talking about in 300-400 words.
+    validations:
+      required: true
+  - type: textarea
+    id: takeaways
+    attributes:
+      label: Key Takeaways
+      description: What will the audience learn from this talk? What will they be able to do after this talk? What's the message you want to convey? (Preferably in bullet points)
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Pre-requisites & reading material
+      description: Anything that the audience should know/read before the session starts
+  - type: textarea
+    id: Resources
+    attributes:
+      label: Resources
+      description: Any relevant resources for the reviewer(s) or the audience
+  - type: input
+    id: time
+    attributes:
+      label: Time required for the talk 
+      description: Please specify how much time does your talk/tutorial requires (including QnA and discussion time).
+    validations:
+      required: true
+  - type: textarea
+    id: about-author
+    attributes:
+      label: About you
+      description: Briefly describe who you are and what you do, especially describe your experience in the field(s) related to your proposed talk. Include your socials like Twitter, Facebook.
+    validations:
+      required: true
+  - type: input
+    id: availability
+    attributes:
+      label: Availability
+      description: When would you be able to give this talk? This could be a specific date or a range of dates.
+    validations:
+      required: true
+  - type: textarea
+    id: one-line-post
+    attributes:
+      label: Talk as a Bluesky post
+      description: Please provide a one-line description of your talk that can be used as a post on Bluesky. (300 characters max)
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any comments
+      description: Any other information that you would like to share with the reviewers or any specific requirements you have for the talk.
+    validations:
+      required: false
+  - type: textarea
+    id: slides
+    attributes:
+      label: Slides link
+      description: Please provide a link to your slides, draft slides, previous recording of this talk or a short 5-mins long demo video of yourself giving this talk (highly recommended if you are a first-time-speaker).
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please check all that apply.
+      options:
+        - label: I am a first time speaker
+        - label: This talk has been delivered before
+        - label: I consent to recording this talk and publishing it on YouTube/other platforms
+        - label: I consent to using my picture (or preferred visual) and name on social media
+        - label: I have read and followed the guidelines and CoC (must tick this one)
+          required: true

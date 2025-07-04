@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 SciPy India Discord/Zulip (TODO)
+    url: https://github.com/SciPy-India
+    about: WIP
+  - name: Discussion Forum
+    url: https://github.com/orgs/SciPy-India/discussions
+    about: Use the forum to ask questions about the upcoming events, help us with Sponsorship, or anything else.

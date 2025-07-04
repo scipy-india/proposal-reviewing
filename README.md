@@ -1,2 +1,3 @@
-# talks
-For reviewing talk proposals
+# SciPy India meet-up talks
+
+For submitting and reviewing talk proposals
