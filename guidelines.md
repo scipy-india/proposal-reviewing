@@ -66,7 +66,7 @@ When discussing code or technical processes, especially when demonstrating live 
 ---
 
 
-**Courtesy**: Anand B. Pillai, Aditi Juneja
+__Borrowed from PyDelhi's talk proposal guidelines__
 
 
 Happy contributing!

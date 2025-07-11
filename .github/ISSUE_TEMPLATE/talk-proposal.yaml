@@ -1,11 +1,11 @@
-name: 🎙️ Talk Proposal
-description: Submit a talk proposal for SciPy India Virtual Meet-ups. 
+name: SciPy India Meet-up Proposal
+description: Submit a proposal for SciPy India Virtual Meet-ups. 
 labels: ["proposal"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to share your learnings with the SciPy India Community! We would highly recommend you go through our [guidelines](https://github.com/SciPy-India/talks/blob/main/guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+        Thanks for taking the time to share your learnings with the SciPy India Community! We would highly recommend you go through our [guidelines](../../guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks/sessions are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
   - type: input
     id: title
     attributes:
@@ -14,6 +14,42 @@ body:
       placeholder: For E.g, Optimising research pipelines with scientific machine learning
     validations:
       required: false
+  - type: dropdown
+    id: format
+    attributes:
+      label: What format do you have in mind?
+      description: Choose the format that best fits your content
+      options:
+        - Talk (20-25 minutes + Q&A)
+        - Workshop (45-60 minutes to 3-hous, hands-on)
+        - Lightning talk (5-10 minutes)
+        - BoF (Birds of a Feather) session (30-45 minutes, open discussion or topic exploration with the audience)
+        - Panel discussion (45-60 minutes with multiple speakers discussing a specific topic, followed by audience Q&A - please specify the panelists as well)
+        - Maintainers session (45-60 minutes, open discussion with maintainers of a project or many projects about a specific topic/problem)
+        - Sprints (hands-on coding session to contribute to a project or library)
+        - Other (please share more details in your proposal)
+    validations:
+      required: true    
+  - type: dropdown
+    id: domain
+    attributes:
+      label: What domain would you say your talk falls under?
+      description: This helps us categorise and promote your talk to the right audience.
+      options:
+        - Core Python
+        - Computational Tools and Scientific Python Infrastructure
+        - Scientific Python Applications
+        - FOSS in STEAM
+        - Environmental and Earth Sciences
+        - Life Sciences and Biomedicine
+        - Community, Education and Outreach
+        - Maintainer's stories
+        - Research & Academia
+        - Data Science, AI/ML, Deep learning, Neural Networks
+        - Security
+        - Others (please specify in the description)
+    validations:
+      required: true    
   - type: textarea
     id: Abstract
     attributes:
@@ -55,8 +91,8 @@ body:
   - type: textarea
     id: about-author
     attributes:
-      label: About you
-      description: Briefly describe who you are and what you do, especially describe your experience in the field(s) related to your proposed talk. Include your socials like Twitter, Facebook.
+      label: About the Author
+      description: Briefly describe who you are and what you do, especially describe your experience in the field(s) related to your proposed talk. Include your socials like LinkedIn, Bluesky.
     validations:
       required: true
   - type: input
@@ -86,16 +122,40 @@ body:
       label: Slides link
       description: Please provide a link to your slides, draft slides, previous recording of this talk or a short 5-mins long demo video of yourself giving this talk (highly recommended if you are a first-time-speaker).
     validations:
-      required: true
+      required: false
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Accessibility & special requirements
+      description: Are there any accessibility needs or special technical requirements for your talk?
+      placeholder: Specific software or hardware requirements; e.g., Cloud computing resources required for the workshop. If possible, we(SciPy India) will try to accommodate them.
+    validations:
+      required: false    
   - type: checkboxes
     id: checklist
     attributes:
       label: Checklist
       description: Please check all that apply.
       options:
-        - label: I am a first time speaker
+        - label: I am a first time speaker (We're here to help!)
         - label: This talk has been delivered before
         - label: I consent to recording this talk and publishing it on YouTube/other platforms
         - label: I consent to using my picture (or preferred visual) and name on social media
         - label: I have read and followed the guidelines and CoC (must tick this one)
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## What happens next?
+        1. **Review process**: Our team will review your proposal as soon as possible.
+        2. **Feedback**: We may reach out for clarifications or suggestions
+        3. **Confirmation**: Once accepted, we'll coordinate the event logistics with you
+        4. **Support**: First-time speakers can seek mentorship and practice sessions, if needed. Just let us know!
+        **Questions?** Reach out to us:
+        - 💬 [Zulip chat community](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/)
+        - 💬 [GitHub Discussion forum](https://github.com/orgs/SciPy-India/discussions)
+        - or write to us below this proposal! :)
+        ---
+        **Improve this questionnaire:** Did you find a bug, or do you have suggestions? Please feel free to add them to the comments above or [open a separate issue](https://github.com/scipy-india/proposal-reviewing/issues/new?template=BLANK_ISSUE) as you prefer. We welcome contributions to improve this proposal form and the overall process!
+        Thank you for contributing to the SciPy India community!
+        *This proposal form was inspired by and enhanced with ideas from [PyDelhi](https://github.com/pydelhi/talks). Thank you to the PyDelhi community for sharing best practices!*

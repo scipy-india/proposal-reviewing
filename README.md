@@ -1,8 +1,8 @@
-# SciPy India meet-up talks
+# SciPy India meet-up proposal submitting and reviewing
 
-For submitting and reviewing talk proposals
+For submitting and reviewing meet-up proposals
 
-Submit your talk proposals for upcoming SciPy India meet-ups at : https://github.com/SciPy-India/talks/issues/new?template=talk-proposal.yaml
+Submit your proposals for upcoming SciPy India meet-ups at : https://github.com/SciPy-India/proposal-reviewing/issues/new?template=talk-proposal.yaml
 
 
 Thank you :)
