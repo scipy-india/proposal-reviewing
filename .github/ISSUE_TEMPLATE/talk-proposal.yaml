@@ -5,15 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
+        The above GitHub issue title will be used as your talk/session title. Keep it clear and concise. Example: `Talk: Optimising research pipelines with scientific machine learning`.
+
         Thanks for taking the time to share your learnings with the SciPy India Community! We would highly recommend you go through our [guidelines](../../guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks/sessions are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: Please share the title of your talk
-      placeholder: For E.g, Optimising research pipelines with scientific machine learning
-    validations:
-      required: false
   - type: dropdown
     id: format
     attributes:
