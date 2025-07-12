@@ -9,7 +9,11 @@ Please note that all talks are licensed under a [Creative Commons Attribution-No
 ## Guidelines for Proposal Submission
 
 ### 1. How We Select Proposals
-We have both 25-minutes (20 minutes for the talk, followed by a 5-minute Q&A) and 5-minutes (lightning) talks in our monthly meetups. Your talk proposal should be **Python-related**. Our audience consists largely of Python beginners, but advanced topics are also welcome if you explain them in a way that's accessible. If your topic requires specific knowledge, **clearly mention any prerequisites** in your proposal.
+Our monthly meetups feature a variety of session formats, including 25-minutes (20 minutes talk, followed by a 5-minute Q&A), 5-10 minutes (lightning) talks, BoF, sprints, etc. Your proposal should be related to **Scientific-Python** or **Scientific-computing**, and must focus on Free and Open Source Software (FOSS)—not on proprietary or closed-source tools. We are also not interested in sponsored or promotional talks. The goal is to share knowledge, experiences, and ideas—not to pitch products or services. If you're interested in hiring, please reach out to us at aditijunej7@gmail.com and/or agriyakhetarpal@outlook.com to post your opportunity on our website (section: job board) instead.
+
+We especially welcome talks or sessions that share: stories and lessons from using or building Free and Open Source Software (FOSS) for research in India, experiences/learnings of people in India contributing to or maintaining open-source projects, collaborations between Indian individuals or organizations and foreign open-source projects/initiatives, and other related areas.
+
+Our audience is largely composed of beginners, but advanced topics are welcome—as long as they are presented in an accessible way. If your talk requires specific prior knowledge, clearly mention any prerequisites in your proposal.
 
 Even if your idea is still in development, submit a proposal! We're available to provide feedback and suggestions. Don't worry about communication skills or English fluency—our focus is on the content, and we're happy to help you refine your talk.
 
@@ -17,13 +21,13 @@ Even if your idea is still in development, submit a proposal! We're available to
 Provide as much detail as possible in your proposal. If you already have slides or a brief video summarizing your talk, include them. More detail helps us better understand your talk and give it a fair evaluation. This also helps the audience understand what to expect.
 
 ### 3. Submit Early
-We start reviewing proposals as soon as they come in, so the earlier you submit, the more time you'll have to receive feedback and refine your talk. Proposals submitted early tend to get more attention. Keep in mind that our **meetups are held on the forth Saturday of each month**, so factor that into your availability.
+We start reviewing proposals as soon as they come in, so the earlier you submit, the more time you'll have to receive feedback and refine your talk. Keep in mind that our **meetups are held on the forth Saturday of each month**, so factor that into your availability.
 
 ### 4. Clearly State Prerequisites
-If your talk requires prior knowledge or preparation, make sure to **state this clearly** in your proposal. Providing links to additional resources or reading material can also help the audience better prepare for your talk.
+If your talk requires prior knowledge or preparation, make sure to **state this clearly** in your proposal. Providing links to additional resources or reading material can also help the reviewers better review and audience better prepare for your talk.
 
 ### 5. Follow the Code of Conduct
-We have a strict [**Code of Conduct**](https://github.com/SciPy-India/.github) that all speakers and participants must follow. Please take a moment to review it before submitting your proposal. Our community is committed to being welcoming, inclusive, and respectful, and we expect the same from all participants. Any form of derogatory or exclusionary language is not tolerated.
+We strictly follow [**NumFOCUS's Code of Conduct**](https://numfocus.org/code-of-conduct) that all speakers and participants must follow. Please take a moment to review it before submitting your proposal. Our community is committed to being welcoming, inclusive, and respectful, and we expect the same from all participants. Any form of derogatory or exclusionary language is not tolerated.
 
 ---
 
@@ -35,6 +39,8 @@ Here are some tips to help you effectively communicate your message and keep you
 Begin your talk by getting to the main point within the first 3-5 minutes. Avoid long introductions, as they tend to lose the audience's attention. Try to get the attention of the audience with an interesting title. 
 
 For lightning talks (5 minutes), focus on sparking curiosity rather than covering every detail. If your talk has prerequisites, make sure the audience is aware upfront.
+
+For sessions like BoF, maintainer sessions and sprints, try to plan out activities or questions beforehand that could help in engaging the participants and help in creating an inclusive discussion room. Also, please make sure to mention in the proposal what's your target group. For such sessions we expect the proposal author to take on a moderator role during the session.
 
 ### 2. Keep the Session Interactive
 Engagement is key. Make your presentation interactive by asking questions, encouraging participation, or conducting small activities throughout the talk. You can use tools for audience interaction to gather real-time feedback or conduct polls.
@@ -66,7 +72,7 @@ When discussing code or technical processes, especially when demonstrating live 
 ---
 
 
-__Borrowed from PyDelhi's talk proposal guidelines__
+__Built upon PyDelhi's talk proposal guidelines__
 
 
 Happy contributing!

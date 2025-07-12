@@ -5,9 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        The above GitHub issue title will be used as your talk/session title. Keep it clear and concise. Example: `Talk: Optimising research pipelines with scientific machine learning`.
+        The above GitHub issue title will be used as your talk/session title. Keep it clear and concise. Example: "Talk: Optimising research pipelines with scientific machine learning".
 
-        Thanks for taking the time to share your learnings with the SciPy India Community! We would highly recommend you go through our [guidelines](../../guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks/sessions are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+        Thanks for taking the time to share your learnings with the SciPy India Community! We would highly recommend you go through our [guidelines](https://github.com/scipy-india/proposal-reviewing/blob/main/guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks/sessions are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
   - type: dropdown
     id: format
     attributes:
@@ -135,7 +135,7 @@ body:
         - label: This talk has been delivered before
         - label: I consent to recording this talk and publishing it on YouTube/other platforms
         - label: I consent to using my picture (or preferred visual) and name on social media
-        - label: I have read and followed the guidelines and CoC (must tick this one)
+        - label: I have read, understood, and have/will be following the [guidelines](https://github.com/scipy-india/proposal-reviewing/blob/main/guidelines.md) and [NumFOCUS's CoC](https://numfocus.org/code-of-conduct) (must tick this one)
           required: true
   - type: markdown
     attributes:
