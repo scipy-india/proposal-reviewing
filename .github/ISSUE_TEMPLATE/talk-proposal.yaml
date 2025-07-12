@@ -135,7 +135,7 @@ body:
         - label: This talk has been delivered before
         - label: I consent to recording this talk and publishing it on YouTube/other platforms
         - label: I consent to using my picture (or preferred visual) and name on social media
-        - label: I have read, understood, and have/will be following the [guidelines](https://github.com/scipy-india/proposal-reviewing/blob/main/guidelines.md) and [NumFOCUS's CoC](https://numfocus.org/code-of-conduct) (must tick this one)
+        - label: I have read, understood, and have/will be following the [guidelines](https://github.com/scipy-india/proposal-reviewing/blob/main/guidelines.md) and [SciPy India's CoC](https://github.com/scipy-india/.github/blob/main/CODE_OF_CONDUCT.md) (must tick this one)
           required: true
   - type: markdown
     attributes:
