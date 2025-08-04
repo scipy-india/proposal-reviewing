@@ -5,5 +5,3 @@ Welcome! This repository serves to coordinate submissions and reviews of proposa
 If you have a proposal to share, please submit it at: https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml
 
 Thank you :)
-
-
