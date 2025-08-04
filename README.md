@@ -1,8 +1,9 @@
-# SciPy India meet-up proposal submitting and reviewing
+# SciPy India Community Calls
 
-For submitting and reviewing meet-up proposals
+Welcome! This repository serves to coordinate submissions and reviews of proposals for the SciPy India Community Calls.
 
-Submit your proposals for upcoming SciPy India meet-ups at : https://github.com/SciPy-India/proposal-reviewing/issues/new?template=talk-proposal.yaml
-
+If you have a proposal to share, please submit it at: https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml
 
 Thank you :)
+
+
