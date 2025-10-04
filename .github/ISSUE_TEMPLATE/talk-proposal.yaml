@@ -93,7 +93,7 @@ body:
     id: availability
     attributes:
       label: Availability
-      description: When would you be able to give this talk/session? This could be a specific date or a range of dates.
+      description: When would you be available to give this talk/session? You may provide a specific date or a range of dates. Please also include your timezone (especially if it is not IST) or the hours of day you’re available. This will help us accommodate your session more effectively in the schedule. Note that community calls are usually held on Saturdays.
     validations:
       required: true
   - type: textarea
