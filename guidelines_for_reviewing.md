@@ -1,1 +1,0 @@
-# Guidelines for Reviewing a Proposal
