@@ -1,5 +1,5 @@
-name: SciPy India Virtual Meet-up Proposal (Paused)
-description: Submit a proposal for SciPy India Virtual Meet-ups. Note: Online community calls are currently paused. 
+name: SciPy India community call proposal (currently paused)
+description: "(Please note that our online community calls are paused until further notice). Submit a proposal for SciPy India's online community calls here."
 labels: ["proposal"]
 body:
   - type: markdown
