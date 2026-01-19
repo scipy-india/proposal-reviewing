@@ -11,10 +11,14 @@ body:
 
         ---
 
-        **Please note: This is an in-person event in Bangalore.**
-        - No travel assistance or accommodation will be provided by the organisers.
-        - The venue and other arrangements are being handled by [BangPypers](https://bangalore.pythonindia.org/).
-        - You must be able to attend and present in person at the venue in Bangalore.
+        > [!NOTE]
+        > This is an in-person event in Bangalore, India, organised by [BangPypers](https://bangalore.pythonindia.org/) in collaboration with SciPy India.
+        > - No travel assistance or accommodation will be provided.
+        > - The venue and other arrangements are being handled by [BangPypers](https://bangalore.pythonindia.org/).
+        > - You must be able to attend and present in person at the venue in Bangalore.
+
+        > [!NOTE]
+        > This proposal form is specifically for the BangPypers x SciPy India in-person event, and both communities will be involved in the review process. We are keen to review proposals that align more with scientific computing and research using Python, across industry and academia. If your proposal is more about general Python programming and related topics, we recommend submitting it to the BangPypers' side of the call for proposals: https://github.com/bangpypers/meetup-talks#submit-a-talkworkshop.
   - type: dropdown
     id: format
     attributes:
