@@ -24,10 +24,6 @@ body:
         - Talk (20-25 minutes + Q&A)
         - Workshop (45-60 minutes to 3-hours, hands-on)
         - Lightning talk (5-10 minutes)
-        - BoF (Birds of a Feather) session (30-45 minutes, open discussion or topic exploration with the audience)
-        - Panel discussion (45-60 minutes with multiple speakers discussing a specific topic, followed by audience Q&A - please specify the panelists as well)
-        - Maintainers session (45-60 minutes, open discussion with maintainers of a project or many projects about a specific topic/problem)
-        - Sprints (hands-on coding session to contribute to a project or library)
         - Other (please share more details in your proposal)
     validations:
       required: true
