@@ -1,10 +1,14 @@
-name: SciPy India Meet-up Proposal
-description: Submit a proposal for SciPy India Virtual Meet-ups. 
+name: SciPy India Virtual Meet-up Proposal (Paused)
+description: Submit a proposal for SciPy India Virtual Meet-ups. Note: Online community calls are currently paused. 
 labels: ["proposal"]
 body:
   - type: markdown
     attributes:
       value: |
+        **Note: Online community calls are currently paused. Please check our [GitHub Discussions](https://github.com/orgs/SciPy-India/discussions) or [Zulip](https://scipyindia.zulipchat.com/) for updates on when they will resume. In the meantime, consider submitting to our in-person events if you're able to attend.**
+
+        ---
+
         The above GitHub issue title will be used as your talk/session title. Keep it clear and concise. Example: "Talk: Optimising research pipelines with scientific machine learning".
 
         Thanks for taking the time to share your learnings with the SciPy India Community! We would highly recommend you go through our [guidelines](https://github.com/scipy-india/proposal-reviewing/blob/main/guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks/sessions are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
