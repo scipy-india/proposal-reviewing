@@ -13,7 +13,7 @@ body:
 
         **Please note: This is an in-person event in Bangalore.**
         - No travel assistance or accommodation will be provided by the organisers.
-        - The venue and other arrangements are being handled by [BangPypers](https://bangalore.python.org.in/).
+        - The venue and other arrangements are being handled by [BangPypers](https://bangalore.pythonindia.org/).
         - You must be able to attend and present in person at the venue in Bangalore.
   - type: dropdown
     id: format
