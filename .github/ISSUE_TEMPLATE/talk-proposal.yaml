@@ -5,7 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Note: Online community calls are currently paused. Please check our social media handles or [Zulip](https://scipyindia.zulipchat.com/) for updates on when they will resume. In the meantime, consider submitting to our in-person events if you're able to attend.**
+        > [!NOTE]
+        > Our online community calls are currently paused. Please check our social media handles or [Zulip](https://scipyindia.zulipchat.com/) for updates on when they will resume. In the meantime, consider submitting to our in-person events if you're able to attend them.**
 
         ---
 
