@@ -1,5 +1,5 @@
 name: Rust Delhi x SciPy India – "Scientific Computing in Rust and Python" proposal form (July 2026)
-description: Submit a proposal for the Rust Delhi x SciPy India July 2026 in-person event in Delhi.
+description: Submit a proposal for the Rust Delhi x SciPy India July 2026 in-person event in New Delhi.
 labels: ["proposal", "rust-delhi-x-scipy-india"]
 body:
   - type: markdown
@@ -12,7 +12,7 @@ body:
         ---
 
         > [!NOTE]
-        > This is an in-person event in Delhi, India, co-organised by [Rust Delhi](https://www.meetup.com/rustdelhi/) and [SciPy India](https://scipy.in/).
+        > This is an in-person event in New Delhi, India, co-organised by [Rust Delhi](https://www.meetup.com/rustdelhi/) and [SciPy India](https://scipy.in/).
         > - We are unable to offer travel assistance or accommodation.
         > - The venue and exact date are yet to be announced. We will update this page and announce them through a comment on your proposal and on social media once they are confirmed.
         > - You must be able to attend and present in person at the venue in New Delhi. Unfortunately, we are unable to accommodate remote presentations for this event.
