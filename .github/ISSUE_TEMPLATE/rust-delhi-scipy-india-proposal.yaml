@@ -1,5 +1,5 @@
-name: Rust Delhi x SciPy India – "Scientific Computing in Rust and Python" proposal form (July 2026)
-description: Submit a proposal for the Rust Delhi x SciPy India July 2026 in-person event in New Delhi.
+name: Rust Delhi x SciPy India – "Scientific Computing in Rust and Python" proposal form (August 2026)
+description: Submit a proposal for the Rust Delhi x SciPy India August 2026 in-person event in New Delhi.
 labels: ["proposal", "rust-delhi-x-scipy-india"]
 body:
   - type: markdown
@@ -140,7 +140,7 @@ body:
       label: In-Person attendance confirmation
       description: Please confirm your ability to attend in person.
       options:
-        - label: I confirm that I will be able to attend and present in person at the venue in New Delhi in July 2026
+        - label: I confirm that I will be able to attend and present in person at the venue in New Delhi in August 2026
           required: true
         - label: I understand that no travel assistance or accommodation can be provided for this event
           required: true
