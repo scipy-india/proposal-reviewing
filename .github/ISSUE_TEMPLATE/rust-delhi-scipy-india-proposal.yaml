@@ -1,0 +1,209 @@
+name: Rust Delhi x SciPy India – "Scientific Computing in Rust and Python" proposal form (July 2026)
+description: Submit a proposal for the Rust Delhi x SciPy India July 2026 in-person event in Delhi.
+labels: ["proposal", "rust-delhi-x-scipy-india"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The above GitHub issue title will be used as your talk/session title. Keep it clear and concise. An example could be: "Talk: Writing high-performance numerical routines in Rust for Python".
+
+        Thanks for taking the time to share your learnings with the SciPy India and Rust Delhi communities! We would highly recommend you go through our [guidelines](https://github.com/scipy-india/proposal-reviewing/blob/main/guidelines.md) on submitting a proposal and giving a talk, especially if it is your first time. Please note that all talks/sessions are licensed under a [Creative Commons Attribution-Non Commercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/), unless you specify otherwise in the comments section below. This means that your talk/session can be shared and adapted by others, but not used for commercial purposes, and you must give appropriate credit to you as the original author. You are welcome to specify a different license if you prefer, but please make sure it allows for sharing and reuse in some form, as we aim to make the content accessible to the wider community.
+
+        ---
+
+        > [!NOTE]
+        > This is an in-person event in Delhi, India, co-organised by [Rust Delhi](https://www.meetup.com/rustdelhi/) and SciPy India.
+        > - We are unable to offer travel assistance or accommodation.
+        > - The venue and exact date are yet to be announced. We will update this page and announce them through a comment on your proposal and on social media once they are confirmed.
+        > - You must be able to attend and present in person at the venue in New Delhi. Unfortunately, we are unable to accommodate remote presentations for this event.
+
+        > [!NOTE]
+        > This proposal form is specifically for the Rust Delhi x SciPy India event, and both communities will be involved in the review process. We are keen to review proposals that connect scientific computing in Rust and/or Python — whether that means using Rust to accelerate Python workflows, building scientific libraries in Rust, exploring Rust-Python interoperability, or sharing experiences from research or industry where one or both languages play a role. If your proposal is about general Rust or general Python programming without a scientific computing angle, we recommend submitting it to [Rust Delhi](https://www.meetup.com/rustdelhi/) or [PyDelhi](https://github.com/pydelhi) respectively.
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: What format do you have in mind?
+      description: Choose the format that best fits your content
+      options:
+        - Talk (20-25 minutes + Q&A)
+        - Workshop (45-60 minutes to 3-hours, hands-on)
+        - Lightning talk (5-10 minutes)
+        - BoF (Birds of a Feather) session (30-45 minutes, an open discussion or topic exploration with the audience)
+        - Other (please share more details in your proposal)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language-focus
+    attributes:
+      label: Which language(s) does your talk/session primarily focus on?
+      description: This helps us balance the programme across both communities.
+      options:
+        - Rust
+        - Python
+        - Both Rust and Python (interoperability, comparisons, combined workflows, and/or learned experiences involving both languages)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: What domain would you say your talk/session (loosely) falls under?
+      description: This helps us categorise and place your talk/session to the right audience.
+      options:
+        - Rust-Python interoperability (PyO3, maturin, and related tooling)
+        - High-performance and systems-level scientific computing
+        - Numerical computing and array programming (NumPy, ndarray, faer, etc.)
+        - Scientific computing infrastructure, packaging, and tooling
+        - Rust ecosystem for scientific computing (ndarray, faer, nalgebra, linfa, burn, candle, polars, etc.)
+        - Data engineering and analytics (Apache Arrow, Polars, Pandas, DuckDB, etc.)
+        - Scientific visualisation and interactive computing (Matplotlib, Plotly, Bokeh, plotters, Rerun, egui, etc.)
+        - Machine learning and AI for scientific applications (scikit-learn, PyTorch, JAX, candle, burn, linfa, etc.)
+        - Physical sciences and engineering (SciPy, FEniCSx, Astropy, Atomistic Simulation Environment, argmin, rustfft, peroxide, etc.)
+        - Quantum computing and quantum information science (Qiskit, PennyLane, Cirq, QuTiP, rustworkx, quil-rs, spinoza, etc.)
+        - Geospatial, environmental, and earth sciences (GeoPandas, xarray, Shapely, geo, proj, geozero, etc.)
+        - Computational biology, life sciences, and biomedicine (BioPython, scanpy, anndata, noodles, rust-bio, etc.)
+        - Reproducible research, scientific workflows, and software engineering practices (Snakemake, DVC, Jupyter, uv, pixi, rattler, etc.)
+        - FOSS in STEAM (Science, Technology, Engineering, Arts, Mathematics)
+        - Community, education and outreach in the context of scientific computing
+        - Research & academia with Rust and/or Python with computational flavours
+        - Experiences from industry and research using Rust and/or Python for scientific computing problems
+        - Other (please specify in the description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: Abstract
+    attributes:
+      label: Abstract
+      description: A brief description about your talk/session in 40-50 words.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A detailed description of what you will be talking about in 300-400 words.
+    validations:
+      required: true
+
+  - type: textarea
+    id: takeaways
+    attributes:
+      label: Key takeaways
+      description: What will the audience learn from this talk/session? What will they be able to do after this talk/session? What's the message you want to convey? (Preferably in bullet points)
+    validations:
+      required: true
+
+  - type: textarea
+    id: rust-python-connection
+    attributes:
+      label: How does your talk/session connect to scientific computing in Rust, Python, or both?
+      description: Briefly explain how your topic relates to the theme of this event. This helps reviewers from both communities understand the relevance of your proposal.
+      placeholder: "A rudimentary example: I will demonstrate how to write a numerical library in Rust and call it from Python using PyO3, showing the performance gains over a pure-Python implementation."
+    validations:
+      required: true
+
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Pre-requisites/Intended audience & reading material
+      description: Who is this talk for? Is there any material that the audience should read or set up before the session starts?
+
+  - type: textarea
+    id: Resources
+    attributes:
+      label: Resources
+      description: Any relevant resources for the reviewer(s) or the audience
+
+  - type: input
+    id: time
+    attributes:
+      label: Time required for the talk/session
+      description: Please specify how much time does your talk/session requires (including QnA and discussion time).
+    validations:
+      required: true
+
+  - type: textarea
+    id: about-author
+    attributes:
+      label: About you, the author(s)
+      description: Briefly describe who you are and what you do, and your experience in the light of your proposed talk/session. You may include your social media links if you prefer, like LinkedIn, Mastodon, Bluesky, etc.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: in-person-confirmation
+    attributes:
+      label: In-Person attendance confirmation
+      description: Please confirm your ability to attend in person.
+      options:
+        - label: I confirm that I will be able to attend and present in person at the venue in New Delhi in July 2026
+          required: true
+        - label: I understand that no travel assistance or accommodation can be provided for this event
+          required: true
+
+  - type: textarea
+    id: one-line-post
+    attributes:
+      label: Talk/session as a Bluesky post (300 characters max)
+      description: Please provide a one-line description of your talk/session that can be used as a post on Bluesky.
+    validations:
+      required: true
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional comments
+      description: Any other information that you would like to share with the reviewers or any specific requirements you have for the talk/session.
+    validations:
+      required: false
+
+  - type: textarea
+    id: slides
+    attributes:
+      label: Links to your slides and/or presentation materials
+      description: Please provide a link to your slides, draft slides, previous recordings of this talk/session (if any), or a short 5-mins long demo video of yourself giving this talk (optional, but highly recommended if you are a first-time speaker). We understand that you may not have these ready at the time of proposal submission, but if you do, it can help the reviewers get a better sense of your talk/session. You are welcome to propose a talk/session even if you don't have these ready yet, and we can work with you to prepare them! Please share whatever you have, even if it's a rough draft or an outline. We deem slides and presentation materials as prerequisites for final acceptance and scheduling.
+    validations:
+      required: false
+
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Accessibility and special requirements
+      description: Are there any accessibility needs from you or special technical requirements for this talk/session?
+      placeholder: Specific software or hardware requirements; such as cloud computing resources required for the workshop. We'll try our best to accommodate them, if possible!
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please check all that apply.
+      options:
+        - label: I am a first time speaker (we're here to help!)
+        - label: This talk/session has been delivered before
+        - label: I consent to recording this talk/session and publishing it on YouTube/other platforms
+        - label: I consent to using my picture (or preferred visual) and name on social media
+        - label: I have read, understood, and have/will be following the [guidelines](https://github.com/scipy-india/proposal-reviewing/blob/main/guidelines.md), [SciPy India's Code of Conduct](https://scipy.in/coc), and [Rust Delhi's Code of Conduct](https://github.com/rustdelhi/policies/blob/main/Code-of-Conduct.md).
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## What happens next?
+        1. **Review process**: Reviewers from SciPy India and Rust Delhi will review your proposal as soon as possible. If you don't hear back from us within two weeks, please feel free to reach out and ask @scipy-india/reviewers for an update.
+        2. **Feedback**: We may reach out for clarifications or suggestions
+        3. **Confirmation**: Once accepted, we'll coordinate the event logistics with you to get your talk/session scheduled and make sure you have everything you need for a successful presentation.
+        4. **Support**: First-time speakers can seek mentorship and practice sessions, if needed. Just let us know!
+        **Questions?** Reach out to us:
+        - [Zulip chat community](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/)
+        - [GitHub Discussion forum](https://github.com/orgs/SciPy-India/discussions)
+        - or write to us below this proposal! :)
+        ---
+        **Improve this questionnaire:** Did you find a bug, or do you have suggestions? Please feel free to add them to the comments above or [open a separate issue](https://github.com/scipy-india/proposal-reviewing/issues/new?template=BLANK_ISSUE) as you prefer. We welcome contributions to improve this proposal form and the overall process!
+        Thank you for contributing to the SciPy India and Rust Delhi communities!
+        *This proposal form was inspired by and enhanced with ideas from [PyDelhi](https://github.com/pydelhi/talks). Thank you to the PyDelhi community for sharing best practices!*
