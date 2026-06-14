@@ -1,5 +1,5 @@
 name: Rust Delhi x SciPy India – "Scientific Computing in Rust and Python" proposal form (August 2026)
-description: Submit a proposal for the Rust Delhi x SciPy India August 2026 in-person event in New Delhi.
+description: Submit a proposal for the Rust Delhi x SciPy India August 2026 in-person event in New Delhi/Noida.
 labels: ["proposal", "rust-delhi-x-scipy-india"]
 body:
   - type: markdown
@@ -12,10 +12,10 @@ body:
         ---
 
         > [!NOTE]
-        > This is an in-person event in New Delhi, India, co-organised by [Rust Delhi](https://www.meetup.com/rustdelhi/) and [SciPy India](https://scipy.in/).
-        > - We are unable to offer travel assistance or accommodation.
-        > - The venue and exact date are yet to be announced. We will update this page and announce them through a comment on your proposal and on social media once they are confirmed.
-        > - You must be able to attend and present in person at the venue in New Delhi. Unfortunately, we are unable to accommodate remote presentations for this event.
+        > This is an in-person event in Noida, Uttar Pradesh, India, co-organised by [Rust Delhi](https://www.meetup.com/rustdelhi/) and [SciPy India](https://scipy.in/). Please also register to attend at the event page via https://scipy.in/sci-py-rs.
+        > The venue is the Essentia.dev office in Sector 62, Noida ([view address](https://maps.app.goo.gl/AZrgtkaNiqddFDz99)), and the timings are 2 PM to 5 PM IST on August 22nd, 2026.
+        > - We are unable to offer travel assistance or accommodation for this event.
+        > - You must be able to attend and present in person at the venue in Noida. Unfortunately, we are unable to accommodate remote presentations for this event.
 
         > [!NOTE]
         > This proposal form is specifically for the Rust Delhi x SciPy India event, and both communities will be involved in the review process. We are keen to review proposals that connect scientific computing in Rust and/or Python — whether that means using Rust to accelerate Python workflows, building scientific libraries in Rust, exploring Rust-Python interoperability, or sharing experiences from research or industry where one or both languages play a role. If your proposal is about general Rust or general Python programming without a scientific computing angle, we recommend submitting it to [Rust Delhi](https://www.meetup.com/rustdelhi/) or [PyDelhi](https://github.com/pydelhi) respectively.
@@ -54,18 +54,18 @@ body:
       options:
         - Rust-Python interoperability (PyO3, maturin, and related tooling)
         - High-performance and systems-level scientific computing
-        - Numerical computing and array programming (NumPy, ndarray, faer, etc.)
+        - Numerical computing and array programming (NumPy, ndarray, faer)
         - Scientific computing infrastructure, packaging, and tooling
-        - Rust ecosystem for scientific computing (ndarray, faer, nalgebra, linfa, burn, candle, polars, etc.)
-        - Data engineering and analytics (Apache Arrow, Polars, Pandas, DuckDB, etc.)
-        - Scientific visualisation and interactive computing (Matplotlib, Plotly, Bokeh, plotters, Rerun, egui, etc.)
-        - Machine learning and AI for scientific applications (scikit-learn, PyTorch, JAX, candle, burn, linfa, etc.)
-        - Physical sciences and engineering (SciPy, FEniCSx, Astropy, Atomistic Simulation Environment, argmin, rustfft, peroxide, etc.)
-        - Quantum computing and quantum information science (Qiskit, PennyLane, Cirq, QuTiP, rustworkx, quil-rs, spinoza, etc.)
-        - Geospatial, environmental, and earth sciences (GeoPandas, xarray, Shapely, geo, proj, geozero, etc.)
-        - Computational biology, life sciences, and biomedicine (BioPython, scanpy, anndata, noodles, rust-bio, etc.)
-        - Reproducible research, scientific workflows, and software engineering practices (Snakemake, DVC, Jupyter, uv, pixi, rattler, etc.)
-        - FOSS in STEAM (Science, Technology, Engineering, Arts, Mathematics)
+        - Rust ecosystem for scientific computing (ndarray, faer, nalgebra, linfa, burn, candle, polars)
+        - Data engineering and analytics (Apache Arrow, Polars, Pandas, DuckDB)
+        - Scientific visualisation and interactive computing (Matplotlib, Plotly, Bokeh, plotters, Rerun, egui)
+        - Machine learning and AI for scientific applications (scikit-learn, PyTorch, JAX, candle, burn, linfa)
+        - Physical sciences and engineering (SciPy, FEniCSx, Astropy, Atomistic Simulation Environment, argmin, rustfft, peroxide)
+        - Quantum computing and quantum information science (Qiskit, PennyLane, Cirq, QuTiP, rustworkx, quil-rs, spinoza)
+        - Geospatial, environmental, and earth sciences (GeoPandas, xarray, Shapely, geo, proj, geozero)
+        - Computational biology, life sciences, and biomedicine (BioPython, scanpy, anndata, noodles, rust-bio)
+        - Reproducible research, scientific workflows, and software engineering practices (Snakemake, DVC, Jupyter, uv, pixi, rattler)
+        - FOSS in STEAM (Science, Technology, Engineering, Arts, and Mathematics)
         - Community, education and outreach in the context of scientific computing
         - Research & academia with Rust and/or Python with computational flavours
         - Experiences from industry and research using Rust and/or Python for scientific computing problems
@@ -140,7 +140,7 @@ body:
       label: In-Person attendance confirmation
       description: Please confirm your ability to attend in person.
       options:
-        - label: I confirm that I will be able to attend and present in person at the venue in New Delhi in August 2026
+        - label: I confirm that I will be able to attend and present in person at the venue in Noida in August 2026
           required: true
         - label: I understand that no travel assistance or accommodation can be provided for this event
           required: true
